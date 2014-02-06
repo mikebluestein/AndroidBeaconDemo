@@ -13,7 +13,7 @@ namespace AndroidBeacon
 	[Activity (Label = "Android Beacon", MainLauncher = true)]
 	public class MainActivity : Activity, IBeaconConsumer
 	{
-		const string UUID = "85A622A1-C5FE-4E75-ACF7-013656D418A7";
+		const string UUID = "A1F30FF0-0A9F-4DE0-90DA-95F88164942E";
 		const string BEACON_ID = "iOSBeacon";
 		IBeaconManager beaconMgr;
 		MonitorNotifier monitorNotifier;

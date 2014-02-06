@@ -21,7 +21,7 @@ namespace iOSBeacon
 		{
 			base.ViewDidLoad ();
 
-			var uuid = new NSUuid ("85A622A1-C5FE-4E75-ACF7-013656D418A7");
+			var uuid = new NSUuid ("A1F30FF0-0A9F-4DE0-90DA-95F88164942E");
 			var beaconId = "iOSBeacon";
 			var beaconRegion = new CLBeaconRegion (uuid, beaconId) {
 				NotifyEntryStateOnDisplay = true,
